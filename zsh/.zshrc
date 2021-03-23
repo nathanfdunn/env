@@ -71,10 +71,12 @@ complete -F _proj_options proj
 
 source ~/.django_bash_completion
 
+source $ZDOTDIR/.env
+
 source $ZDOTDIR/.path
 
 source $ZDOTDIR/.aliases
 
-source ~/Commands/_list_options
+source $COMMANDDIR/_list_options
 
 complete -F _list_options list

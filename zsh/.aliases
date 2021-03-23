@@ -73,18 +73,20 @@ alias hype="cargo run --bin client --release"
 # sudo spctl --master-enablealias cod="cod"
 alias cod="/Applications/VSCodium.app/Contents/MacOS/Electron"
 
-alias list="~/Commands/list"
+# alias list="$COMMANDDIR/list"
 
 alias p8export='/Users/nathandunn/Projects/trijam-automation/venv/bin/python /Users/nathandunn/Projects/trijam-automation/run.py'
 
 
 
-alias gocmd='pushd ~/Commands'
+alias gocmd='pushd $COMMANDDIR'
 alias goletters="pushd ~/'Documents/Random Documents/Letters'"
-alias golist='pushd ~/Lists'
+alias golist='pushd $LISTDIR'
 alias goami="pushd ~/Projects/amigurumi/ami-backup"
 alias godream='pushd ~/Documents/Random\ Documents/Dreams'
 alias gofin="pushd /Users/nathandunn/Documents/Finances"
 alias gojam='pushd /Users/nathandunn/Projects/pico8-games/raw'
 alias gonotes='pushd /Users/nathandunn/Documents/Random\ Documents/Notes'
 
+alias gosync="pushd $SYNCROOT"
+alias goshconf="pushd $SHELLCONFIGDIR"

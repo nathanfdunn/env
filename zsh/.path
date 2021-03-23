@@ -6,7 +6,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 export PATH="$PATH:$HOME/Library/Application Support/itch/apps/butler"
 
-export PATH="~/Commands:$PATH"
+export PATH="$COMMANDDIR:$PATH"
 
 export PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
 
