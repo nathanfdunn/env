@@ -1,0 +1,9 @@
+alias gocmd='pushd ~/Commands'
+alias goletters="pushd ~/'Documents/Random Documents/Letters'"
+alias golist='pushd ~/Lists'
+alias goami="pushd ~/Desktop/Amigurumi/ami-backup"
+alias goami="pushd ~/Projects/amigurumi/ami-backup"
+alias godream='pushd ~/Documents/Random\ Documents/Dreams'
+alias gofin="pushd /Users/nathandunn/Documents/Finances"
+alias gojam='pushd /Users/nathandunn/Projects/pico8-games/raw'
+alias gonotes='pushd /Users/nathandunn/Documents/Random\ Documents/Notes'
