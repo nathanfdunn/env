@@ -24,20 +24,28 @@ alias g='git'
 alias gc='git checkout'
 alias gs='git status'
 alias gb='git branch'
-gr () {
-	if [[ $# -eq 0 ]]; then
-		git remote -v
-	else
-		git remote $*
-	fi
-}
+alias gr='git remote'
+# gr () {
+# 	if [[ $# -eq 0 ]]; then
+# 		git remote -v
+# 	else
+# 		git remote $*
+# 	fi
+# }
 alias gl='git log'
 alias gd='git diff'
 alias gacm='git acm'
 alias graph="git log --graph --pretty='%h %<(10,trunc)%an   %<(30,trunc)%s'"
 
-alias rbp="source ~/.bash_profile"
-alias ebp='sli ~/.bash_profile'
+# alias rbp="source ~/.bash_profile"
+# alias ebp='sli ~/.bash_profile'
+
+# Reload zsh profile
+alias rzp="source ~/.zshrc"
+alias ezp="sli ~/.zshrc"
+
+# Edit pico8 config
+alias epc='sli /Users/nathandunn/Library/Application\ Support/pico-8/config.txt'
 alias gpom="git push origin master "
 alias sshdoinit="pushd ~/.ssh && ssh-add digitalocean_rsa && popd"
 alias envact='source "$(pipenv --venv)"/bin/activate'
@@ -64,3 +72,19 @@ alias hype="cargo run --bin client --release"
 # sudo spctl --master-disable
 # sudo spctl --master-enablealias cod="cod"
 alias cod="/Applications/VSCodium.app/Contents/MacOS/Electron"
+
+alias list="~/Commands/list"
+
+alias p8export='/Users/nathandunn/Projects/trijam-automation/venv/bin/python /Users/nathandunn/Projects/trijam-automation/run.py'
+
+
+
+alias gocmd='pushd ~/Commands'
+alias goletters="pushd ~/'Documents/Random Documents/Letters'"
+alias golist='pushd ~/Lists'
+alias goami="pushd ~/Projects/amigurumi/ami-backup"
+alias godream='pushd ~/Documents/Random\ Documents/Dreams'
+alias gofin="pushd /Users/nathandunn/Documents/Finances"
+alias gojam='pushd /Users/nathandunn/Projects/pico8-games/raw'
+alias gonotes='pushd /Users/nathandunn/Documents/Random\ Documents/Notes'
+
