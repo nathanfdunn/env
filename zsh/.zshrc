@@ -39,12 +39,6 @@ op () {
 }
 
 
-testfunc(){
-	if [[ "234" == "234" ]]; then
-		echo 'good'
-	fi
-}
-
 proj() {
 	if [[ "$1" == "-l" ]]; then
 		ls ~/Projects
